@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(12, 22, 78);
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section{
+    width: 250px;
+    height: 450px;
+    margin: 20px;
+    background-color: hs1(216,50%,10%);
+}
+
+.contenedor {
+    margin: 20px;
+}
+
+.imagen_principal {
+    width: auto;
+    display: flex;
+}
+
+.img1 {
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+h2{
+    margin-top: 10px;
+    color:white
+}
+
+p{
+    margin-top: 10px;
+    color: rgb(255, 255, 255, 0.5)
+}
